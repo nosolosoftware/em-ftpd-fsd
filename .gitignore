@@ -1,0 +1,11 @@
+*.swp
+*~
+
+Gemfile.lock
+.rvmrc
+.rspec
+.yardoc/
+
+coverage/
+doc/
+pkg/
