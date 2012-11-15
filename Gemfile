@@ -7,8 +7,6 @@ group :development do
 end
 
 group :test do
-  gem 'rspec', '~> 2.11.0'
-  gem 'rspec-expectations', git: 'git://github.com/rspec/rspec-expectations.git'
-
+  gem 'rspec', '~> 2.12.0'
   gem 'simplecov', '~> 0.7.1'
 end
