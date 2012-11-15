@@ -9,19 +9,45 @@ Gem::Specification.new do |s|
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Luis Ciudad"]
-  s.date = "2012-11-14"
+  s.date = "2012-11-15"
   s.description = "Very simple file system driver for EM-FTPD server; including common FTP commands, authentication and before and after operation hooks."
   s.email = "lciudad@nosolosoftware.biz"
   s.extra_rdoc_files = [
     "README.md"
   ]
   s.files = [
-    "VERSION"
+    ".simplecov",
+    "COPYING",
+    "Gemfile",
+    "README.md",
+    "Rakefile",
+    "VERSION",
+    "em-ftpd-fsd.gemspec",
+    "lib/em-ftpd-fsd.rb",
+    "lib/em-ftpd-fsd/authentication/plain.rb",
+    "lib/em-ftpd-fsd/base.rb",
+    "lib/em-ftpd-fsd/directory_item.rb",
+    "lib/em-ftpd-fsd/file_operations.rb",
+    "lib/em-ftpd-fsd/hooks.rb",
+    "spec/base_spec.rb",
+    "spec/file_operations/authentication_spec.rb",
+    "spec/file_operations/bytes_spec.rb",
+    "spec/file_operations/change_dir_spec.rb",
+    "spec/file_operations/delete_dir_spec.rb",
+    "spec/file_operations/delete_file_spec.rb",
+    "spec/file_operations/dir_contents_spec.rb",
+    "spec/file_operations/get_file_spec.rb",
+    "spec/file_operations/make_dir_spec.rb",
+    "spec/file_operations/put_file_spec.rb",
+    "spec/file_operations/rename_spec.rb",
+    "spec/hooks_spec.rb",
+    "spec/spec_helper.rb",
+    "spec/support/files_helper.rb"
   ]
   s.homepage = "https://github.com/nanocity/em-ftpd-fsd"
   s.licenses = ["GPLv3"]
   s.require_paths = ["lib"]
-  s.rubygems_version = "1.8.24"
+  s.rubygems_version = "1.8.10"
   s.summary = "File System Driver for EM-FTPD server"
 
   if s.respond_to? :specification_version then
